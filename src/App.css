@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+
+
 html{
 
+}
+section{
+    @apply py-8 px-8 md:px-32
+}
+.btn-primary{
+    @apply bg-orange-500 py-4 px-2 rounded-lg text-white  text-sm md:text-lg text-center
+    flex flex-row w-fit items-center gap-3 font-bold hover:bg-orange-700
+    transition-all  hover:-translate-y-1
+}
+.btn-white{
+    @apply bg-white py-4 px-2 rounded-lg text-blue-900  text-sm md:text-lg text-center
+    flex flex-row w-fit items-center gap-3 font-bold hover:bg-gray-200
+    transition-all  hover:-translate-y-1
 }
