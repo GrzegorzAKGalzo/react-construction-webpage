@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 
+::selection {
+  color: var(--color-blue-900);
+  background: var(--color-orange-500);
+}
 
 html{
 
@@ -9,12 +13,21 @@ section{
     @apply py-8 px-8 md:px-32
 }
 .btn-primary{
-    @apply bg-orange-500 py-4 px-2 rounded-lg text-white  text-sm md:text-lg text-center
+    @apply bg-orange-500 py-4 px-3 rounded-lg text-white  text-sm md:text-lg text-center
     flex flex-row w-fit items-center gap-3 font-bold hover:bg-orange-700
     transition-all  hover:-translate-y-1
 }
 .btn-white{
-    @apply bg-white py-4 px-2 rounded-lg text-blue-900  text-sm md:text-lg text-center
+    @apply bg-white py-4 px-3 rounded-lg text-blue-900  text-sm md:text-lg text-center
     flex flex-row w-fit items-center gap-3 font-bold hover:bg-gray-200
     transition-all  hover:-translate-y-1
+}
+.title-extras{
+    @apply bg-orange-100 text-orange-500 font-medium w-fit px-4 py-1 rounded-full uppercase
+}
+h2, h3,h4{
+    @apply text-5xl text-blue-900 font-bold py-5 leading-15
+}
+section:not(#hero) p.text {
+    @apply pb-5 text-gray-600 leading-8
 }

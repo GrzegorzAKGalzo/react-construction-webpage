@@ -7,8 +7,11 @@ import Porfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 function App() {
+  AOS.init();
   return (
     <>
       <Navbar />
