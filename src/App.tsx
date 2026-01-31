@@ -1,7 +1,4 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./pages/home";
 import AboutUs from "./pages/AboutUs";
@@ -9,12 +6,12 @@ import Offer from "./pages/Offer";
 import Porfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Navbar from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/o-nas" element={<AboutUs />} />

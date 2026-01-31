@@ -1,0 +1,21 @@
+.navbar-link.active, .navbar-link:hover{
+    font-weight: bold;
+}
+.navbar-link{
+    position: relative;
+}
+.navbar-link.active::before, .navbar-link:hover::before{
+    content: " ";
+    width: 80%;
+    position: absolute;
+    bottom: -43px;
+    height: 5px;
+    background-color: var(--color-blue-900);
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media (max-width: 768px) { 
+   .navbar-link.active::before, .navbar-link:hover::before{
+        bottom: -5px;
+    } 
+}
