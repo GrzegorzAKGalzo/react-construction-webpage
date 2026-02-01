@@ -10,12 +10,14 @@ import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   AOS.init();
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/o-nas" element={<AboutUs />} />

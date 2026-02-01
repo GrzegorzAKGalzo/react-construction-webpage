@@ -633,7 +633,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-5  text-blue-200 py-3">
-                <PhoneIcon className="size-13 p-3 text-white bg-orange-500 rounded-xl" />
+                <ClockIcon className="size-13 p-3 text-white bg-orange-500 rounded-xl" />
                 <div>
                   <p className="font-medium text-lg text-white">
                     Godziny pracy
