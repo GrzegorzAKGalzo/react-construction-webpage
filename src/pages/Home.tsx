@@ -524,7 +524,10 @@ export default function Home() {
           projektu.
         </p>
         <div className="flex justify-center flex-col lg:flex-row px-4 gap-10">
-          <div className="w-full max-w-2xl rounded-xl border border-gray-100 shadow-md p-6 md:p-8">
+          <div
+            data-aos="fade-up"
+            className="w-full max-w-2xl rounded-xl border border-gray-100 shadow-md p-6 md:p-8"
+          >
             <p className="text-2xl md:text-3xl text-blue-900 font-bold mb-6">
               Wyślij zapytanie
             </p>
@@ -599,7 +602,10 @@ export default function Home() {
             </form>
           </div>
           <div>
-            <div className="bg-linear-90 from-blue-900 to-blue-800 rounded-xl shadow-md text-left p-5 text-blue-200">
+            <div
+              data-aos="fade-up"
+              className="bg-linear-90 from-blue-900 to-blue-800 rounded-xl shadow-md text-left p-5 text-blue-200"
+            >
               <p className="text-2xl text-white font-bold">Dane kontaktowe</p>
               <p className="py-5">
                 Jesteśmy do Twojej dyspozycji. Skontaktuj się z nami w dogodny
@@ -636,7 +642,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="bg-orange-100 rounded-lg mt-5 p-5 border border-orange-200 text-left">
+            <div
+              data-aos="fade-up"
+              className="bg-orange-100 rounded-lg mt-5 p-5 border border-orange-200 text-left"
+            >
               <p className="text-blue-900 text-lg font-bold">
                 Bezpłatna wycena
               </p>

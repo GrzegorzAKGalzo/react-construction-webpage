@@ -40,6 +40,6 @@ ul{
     list-style-type: disc;
     @apply pl-5
 }
-ul li::marker{
+ul:not(.normal) li::marker{
     color: var(--color-orange-500);
 }

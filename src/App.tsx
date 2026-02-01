@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Footer from "./components/Footer";
 
 function App() {
   AOS.init();
@@ -23,6 +24,7 @@ function App() {
         <Route path="/kontakt" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }
