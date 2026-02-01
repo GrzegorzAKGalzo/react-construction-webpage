@@ -30,7 +30,7 @@ section{
 .title-extras{
     @apply bg-orange-100 text-orange-500 font-medium w-fit px-4 py-1 rounded-full uppercase
 }
-h2, h3,h4{
+h2, h3{
     @apply text-5xl text-blue-900 font-bold py-5 leading-15
 }
 section:not(#hero) p.text {
